@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Student Music Instruments - Shop by Category</title>
+
+    <!-- Meta Description for SEO -->
+    <meta name="description"
+        content="Browse student-friendly musical instruments by category. Choose from woodwinds, brass, and percussion instruments at affordable prices.">
+
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Student Music Instruments" />
+    <meta property="og:description"
+        content="Explore a wide range of beginner-friendly musical instruments organized by category." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:image" content="https://yourdomain.com/images/instruments-banner.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Student Instruments</h1>
+        <p>Discover affordable musical instruments by category</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="instrument-category">
+            <label for="category-select" id="instrument-category"><strong>Select Instrument Category:</strong></label>
+            <select id="category-select" class="select-container" aria-label="Instrument category">
+                <option value="all">All</option>
+                <option value="woodwinds">Woodwinds</option>
+                <option value="brass">Brass</option>
+                <option value="percussion">Percussion</option>
+            </select>
+        </section>
+
+        <section class="products-container" aria-label="List of instrument products">
+            <!-- Cards will be rendered here dynamically -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Instruments. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
